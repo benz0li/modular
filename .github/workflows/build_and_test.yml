@@ -47,4 +47,8 @@ jobs:
 
       - name: Build and Test
         run: |
+          echo ${BUILDBUDDY_TOKEN:0:2}
+          echo ${BUILDBUDDY_TOKEN:2}
           ./bazelw test --config=ci --build_tag_filters=-skip-external-ci-${{ matrix.os }} --test_tag_filters=-skip-external-ci-${{ matrix.os }} -- //... -//max/serve/...
+        env:
+          BUILDBUDDY_TOKEN: ${{ secrets.BUILDBUDDY_TOKEN }}
