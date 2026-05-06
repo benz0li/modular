@@ -12,10 +12,6 @@
 # ===----------------------------------------------------------------------=== #
 
 
-struct MyTensor[*dimensions: Int]:
-    pass
-
-
 def sum_params[*values: Int]() -> Int:
     var sum = 0
     for v in values:

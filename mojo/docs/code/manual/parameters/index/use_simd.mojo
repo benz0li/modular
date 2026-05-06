@@ -21,7 +21,6 @@ def main():
 
     # Example: "Using parameterized types and functions"
 
-    # start-simd-usage-example
     # Make a vector of 4 floats.
     var small_vec = SIMD[DType.float32, 4](1.0, 2.0, 3.0, 4.0)
 
@@ -41,7 +40,6 @@ def main():
         "size:",
         bigger_vec2.size,
     )
-    # end-simd-usage-example
 
     # second example
 
