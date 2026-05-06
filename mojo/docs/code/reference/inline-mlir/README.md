@@ -1,8 +1,8 @@
-# Code examples and tests for traits reference
+# Code examples and tests for inline MLIR
 
 This directory contains Code examples and tests for the
-[Mojo traits reference](/docs/reference/mojo-trait-declarations)
-section of the Mojo Manual.
+[inline MLIR](../../../reference/inline-mlir.mdx) section of
+the Mojo Manual.
 
 Contents:
 

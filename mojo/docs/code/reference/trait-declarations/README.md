@@ -1,8 +1,7 @@
-# Code examples and tests for function declarations reference
+# Code examples and tests for traits reference
 
 This directory contains Code examples and tests for the
-[Function declarations
-reference](/docs/reference/mojo-function-declarations)
+[Mojo traits reference](../../../reference/trait-declarations.mdx)
 section of the Mojo Manual.
 
 Contents:

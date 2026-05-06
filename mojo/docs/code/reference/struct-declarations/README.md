@@ -1,8 +1,9 @@
-# Code examples and tests for inline MLIR
+# Code examples and tests for struct reference
 
 This directory contains Code examples and tests for the
-[inline MLIR](/docs/reference/mojo-inline-mlir) section of
-the Mojo Manual.
+[Mojo struct declarations
+reference](../../../reference/struct-declarations.mdx) section
+of the Mojo Manual.
 
 Contents:
 

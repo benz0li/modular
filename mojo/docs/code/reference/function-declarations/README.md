@@ -1,9 +1,9 @@
-# Code examples and tests for struct reference
+# Code examples and tests for function declarations reference
 
 This directory contains Code examples and tests for the
-[Mojo struct declarations
-reference](/docs/reference/mojo-struct-declarations) section
-of the Mojo Manual.
+[Function declarations
+reference](../../../reference/function-declarations.mdx)
+section of the Mojo Manual.
 
 Contents:
 
