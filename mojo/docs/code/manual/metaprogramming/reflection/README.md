@@ -1,8 +1,8 @@
-# Code examples and tests for compile-time evaluation
+# Code examples and tests for reflection
 
 This directory contains Code examples and tests for the
-[Compile-time evaluation](/docs/manual/metaprogramming/comptime-evaluation)
-section of the Mojo Manual.
+[Reflection](../../../../../docs/manual/reflection.mdx) section of
+the Mojo Manual.
 
 Contents:
 
