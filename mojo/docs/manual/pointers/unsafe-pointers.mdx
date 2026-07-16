@@ -387,6 +387,7 @@ def print_bytes(bytes: UnsafePointer[mut=False, Byte, _], count: Int):
     for i in range(count):
         print(hex(bytes[i]), end=" ")
     print()
+```
 
 By binding the infer-only `mut` parameter to `False`, and leaving the origin
 unbound (using `_`), this signature lets the compiler infer the origin, but
