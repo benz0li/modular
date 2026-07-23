@@ -38,7 +38,7 @@ body:
     id: Description
     attributes:
       label: Please describe the bug or feature request.
-      description: If it's a bug, please include any necessary reproduction details such as browser.
+      description: If it's a bug, please include any necessary reproduction details such as the browser you're using.
     validations:
       required: true
 
@@ -46,6 +46,6 @@ body:
     id: Motivation
     attributes:
       label: Please describe any motivation that would help prioritize this further.
-      description: "Ex: How large is your inference need, or how impactful would this be for your organization."
+      description: "Example: How large is your inference need, or how impactful would this be for your organization."
     validations:
       required: false
